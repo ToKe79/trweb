@@ -25,6 +25,8 @@ function PrefsDialog(remote) {
             'blocklist-url',
             'dht-enabled',
             'download-dir',
+            'download-queue-enabled',
+            'download-queue-size',
             'encryption',
             'idle-seeding-limit',
             'idle-seeding-limit-enabled',
@@ -55,6 +57,7 @@ function PrefsDialog(remote) {
             'blocklist-enabled': ['blocklist-url',
                 'blocklist-update-button'
             ],
+            'download-queue-enabled': ['download-queue-size'],
             'idle-seeding-limit-enabled': ['idle-seeding-limit'],
             'seedRatioLimited': ['seedRatioLimit'],
             'speed-limit-down-enabled': ['speed-limit-down'],
