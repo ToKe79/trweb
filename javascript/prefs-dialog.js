@@ -30,6 +30,8 @@ function PrefsDialog(remote) {
             'encryption',
             'idle-seeding-limit',
             'idle-seeding-limit-enabled',
+            'incomplete-dir',
+            'incomplete-dir-enabled',
             'lpd-enabled',
             'peer-limit-global',
             'peer-limit-per-torrent',
@@ -59,6 +61,7 @@ function PrefsDialog(remote) {
             ],
             'download-queue-enabled': ['download-queue-size'],
             'idle-seeding-limit-enabled': ['idle-seeding-limit'],
+            'incomplete-dir-enabled': ['incomplete-dir'],
             'seedRatioLimited': ['seedRatioLimit'],
             'speed-limit-down-enabled': ['speed-limit-down'],
             'speed-limit-up-enabled': ['speed-limit-up']
